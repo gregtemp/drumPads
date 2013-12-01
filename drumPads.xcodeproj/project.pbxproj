@@ -33,6 +33,12 @@
 		5E1B6D9A184B07EA00799076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1B6D46184B07E700799076 /* UIKit.framework */; };
 		5E1B6DA2184B07EA00799076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DA0184B07EA00799076 /* InfoPlist.strings */; };
 		5E1B6DA4184B07EA00799076 /* drumPadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6DA3184B07EA00799076 /* drumPadsTests.m */; };
+		5E1B6DB4184B155800799076 /* samp0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DAE184B155800799076 /* samp0.wav */; };
+		5E1B6DB8184B155800799076 /* samp4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DB2184B155800799076 /* samp4.wav */; };
+		5E1B6DB9184B155800799076 /* samp5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DB3184B155800799076 /* samp5.wav */; };
+		5E1B6DBB184B194A00799076 /* samp1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DBA184B194A00799076 /* samp1.wav */; };
+		5E1B6DBE184B23C500799076 /* samp2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DBC184B23C500799076 /* samp2.wav */; };
+		5E1B6DBF184B23C500799076 /* samp3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B6DBD184B23C500799076 /* samp3.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +126,12 @@
 		5E1B6D9F184B07EA00799076 /* drumPadsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drumPadsTests-Info.plist"; sourceTree = "<group>"; };
 		5E1B6DA1184B07EA00799076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E1B6DA3184B07EA00799076 /* drumPadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drumPadsTests.m; sourceTree = "<group>"; };
+		5E1B6DAE184B155800799076 /* samp0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp0.wav; sourceTree = "<group>"; };
+		5E1B6DB2184B155800799076 /* samp4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp4.wav; sourceTree = "<group>"; };
+		5E1B6DB3184B155800799076 /* samp5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp5.wav; sourceTree = "<group>"; };
+		5E1B6DBA184B194A00799076 /* samp1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp1.wav; sourceTree = "<group>"; };
+		5E1B6DBC184B23C500799076 /* samp2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp2.wav; sourceTree = "<group>"; };
+		5E1B6DBD184B23C500799076 /* samp3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = samp3.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +234,7 @@
 		5E1B6D51184B07E700799076 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				5E1B6DAD184B155800799076 /* samplePack */,
 				5E1B6D52184B07E700799076 /* Images.xcassets */,
 				5E1B6D54184B07E700799076 /* Media.xcassets */,
 				5E1B6D85184B07E800799076 /* C4Loop.aif */,
@@ -307,6 +320,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5E1B6DAD184B155800799076 /* samplePack */ = {
+			isa = PBXGroup;
+			children = (
+				5E1B6DAE184B155800799076 /* samp0.wav */,
+				5E1B6DBA184B194A00799076 /* samp1.wav */,
+				5E1B6DBC184B23C500799076 /* samp2.wav */,
+				5E1B6DBD184B23C500799076 /* samp3.wav */,
+				5E1B6DB2184B155800799076 /* samp4.wav */,
+				5E1B6DB3184B155800799076 /* samp5.wav */,
+			);
+			path = samplePack;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,12 +409,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1B6DB8184B155800799076 /* samp4.wav in Resources */,
 				5E1B6D4D184B07E700799076 /* InfoPlist.strings in Resources */,
+				5E1B6DBE184B23C500799076 /* samp2.wav in Resources */,
 				5E1B6D86184B07E800799076 /* C4Loop.aif in Resources */,
 				5E1B6D55184B07E700799076 /* Media.xcassets in Resources */,
+				5E1B6DBF184B23C500799076 /* samp3.wav in Resources */,
+				5E1B6DB4184B155800799076 /* samp0.wav in Resources */,
 				5E1B6D8E184B07EA00799076 /* Main.storyboard in Resources */,
 				5E1B6D53184B07E700799076 /* Images.xcassets in Resources */,
 				5E1B6D88184B07E900799076 /* inception.mov in Resources */,
+				5E1B6DB9184B155800799076 /* samp5.wav in Resources */,
+				5E1B6DBB184B194A00799076 /* samp1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
